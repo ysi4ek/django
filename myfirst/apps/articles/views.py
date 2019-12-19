@@ -32,3 +32,9 @@ def article(request):
 
 def fact(request):
 	return render(request, 'articles/fact.html', {})
+
+def blog_design(request):
+	return render(request, 'articles/blog_design.html', {})
+
+def blog_world(request):
+	return render(request, 'articles/blog_world.html', {})
